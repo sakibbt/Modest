@@ -1,0 +1,148 @@
+/* responsive large device */
+@media(max-width: 991px){
+	.navbar .nav-item {margin: 10px 10px; text-align: center;}
+	.navbar-toggler:focus {box-shadow: none; border: none;}
+	.bg-one, .bg-two, .bg-three {min-height: 80vh;}
+	.item-content {padding: 120px 0 120px;}
+
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 60px 0;}
+	.about-section .section-title {font-size: 34px; margin-bottom: 30px;}
+	.about-section p {line-height: 30px;}
+	.social-area {text-align: center; margin-bottom: 40px;}
+	.social-area ul li .fa {margin-right: 4px;}
+
+	.team-member .social-info {top: 39%; left: 27%;}
+	.team-member {margin-bottom: 26px;}
+
+	.feature-section p {margin-bottom: 40px;}
+	.feature-section h4 {margin-top: 30px;}
+	.contact-box {position: relative; width: 100%; bottom: 0%; border: 2px solid #eaeef1; padding: 0 28px 25px;}
+	.contact-content{margin-bottom: 28px;}
+	.footer p, .social-media {text-align: center;}
+}
+
+/* responsive tablet device */
+@media(max-width: 768px){
+
+	/*.bg-one, .bg-two, .bg-three {
+    min-height: auto;
+}*/
+	.bg-one, .bg-two, .bg-three {min-height: 80vh;}
+	.item-content {padding: 90px 0 90px;}
+	.item-content h1 {font-size: 38px;}
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 50px 0;}
+	.about-section .section-title {font-size: 32px; margin-bottom: 30px;}
+/*	.about-section p{line-height: 30px;}*/
+/*	.social-area {text-align: center; margin-bottom: 40px;}*/
+/*	.social-area ul li .fa {margin-right: 4px;}*/
+/*	.team-member {margin-bottom: 26px;}*/
+	.team-section .section-title, .service-section .section-title, .feature-section .section-title, .contact-section .section-title{font-size: 32px; margin-bottom: 40px;}
+	.team-member .social-info {top: 37%; left: 19%;}
+	.project-content {bottom: -50%;}
+	.project-content h3 {font-size: 18px;}
+	.feature-section h4 {margin-top: 34px;}
+	.feature-section p {margin-bottom: 50px;}
+/*	.contact-box {position: relative; width: 100%; bottom: 0%; border: 2px solid #eaeef1; padding: 0 28px 25px;}*/
+/*	.contact-content{margin-bottom: 28px;}*/
+/*	footer p, .social-media {text-align: center;}*/
+
+}
+
+
+
+
+/* responsive mobile device */
+@media(max-width: 576px){
+	.bg-one, .bg-two, .bg-three {min-height: 56vh;}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {bottom: 2%;}
+	.item-content {padding: 100px 0 100px;}
+	.item-content h1 {font-size: 34px;}
+
+/*	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 50px 0;}*/
+	.about-section .section-title,
+	.team-section .section-title {font-size: 30px; margin-bottom: 30px;}
+	.team-member .social-info {top: 36%; left: 18%;}
+/*	.about-section p{line-height: 30px;}*/
+
+/*	.social-area {text-align: center; margin-bottom: 40px;}*/
+	.social-area ul li .fa {width: 50px; height: 50px; line-height: 50px; font-size: 22px; margin-right: 0}
+
+/*	.team-member {margin-bottom: 26px;}*/
+
+/*	.project-content {bottom: -50%;}*/
+	.project-content h3 {font-size: 17px;}
+
+	.service-section .section-title {font-size: 30px;}
+
+	.feature-section p {margin-bottom: 10%; line-height: 30px;}
+	.feature-section .section-title {font-size: 30px;}
+
+	.contact-section h2 {margin-bottom: 30px;}
+/*	.contact-box {position: relative; width: 100%; bottom: 0%; border: 2px solid #eaeef1; padding: 0 28px 25px;}*/
+/*	footer p, .social-media {text-align: center;}*/
+	
+}
+
+@media(max-width: 475px){
+	.item-content {padding: 70px 20px 70px;}
+	.item-content h1 {font-size: 30px;}
+	.item-content h1 {font-size: 30px;}
+	.item-content ul{text-align: center;}
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 50px 20px;}
+	.team-member .social-info {top: 40%; left: 30%;}
+	.team-member .person-details {padding: 20px 20px;}
+	.work-section .section-title {font-size: 30px; margin-bottom: 40px;}
+	.footer p {margin-top: 14px;}
+}
+
+@media(max-width: 425px){
+	.item-content h1 {font-size: 28px;}
+	.item-content p {font-size: 17px;}
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 48px 18px;}
+	.about-section h3 {font-size: 19px;}
+	.contact-section h2 {margin-bottom: 10px;}
+	.google-map iframe {padding: 30px 0px;}
+	.contact-content h3 {margin-top: 10px;}
+	.contact-content p {font-size: 16px;}
+	.contact-section .section-title{font-size: 30px}
+	.footer p {font-size: 14px;}
+}
+
+@media(max-width: 375px){
+	.item-content {padding: 60px 20px 60px;}
+	.item-content ul li a {font-size: 15px; padding: 10px 26px;}
+	.item-content p {font-size: 16px;}
+	.item-content h1{font-size: 28px;}
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 46px 14px;}
+	.about-section .section-title, .team-section .section-title {margin-bottom: 24px;}
+	.about-section h4 {width: 40px; height: 40px; line-height: 40px;}
+	.team-member .social-info {top: 36%; left: 26%;}
+	.footer p {font-size: 13px;}
+	.social-media ul li a .fa {font-size: 18px;}
+
+}
+
+@media(max-width: 320px){
+	.item-content {padding: 54px 20px 54px;}
+	.item-content p {font-size: 15px;}
+	.item-content ul li a {font-size: 14px; padding: 10px 16px;}
+	.about-section, .team-section, .work-section, .service-section, .feature-section, .contact-section {padding: 40px 10px;}
+	.about-section .section-title, .team-section .section-title {font-size: 28px; margin-bottom: 20px;}
+	.about-section p {font-size: 15px;}
+	.social-area ul li .fa {width: 46px; height: 46px; line-height: 46px; font-size: 20px;}
+	.about-section h3 {font-size: 18px;}
+	.team-member .social-info ul li .fa {width: 44px; height: 44px; line-height: 44px;}
+	.team-member .person-details h4 {font-size: 15px;}
+	.team-member .person-details h3 {font-size: 18px;}
+	.work-section .section-title {font-size: 28px; margin-bottom: 36px;}
+	.service-section .section-title {font-size: 28px;}
+	.service-section p {font-size: 15px;}
+	.feature-section .section-title {font-size: 28px; margin-bottom: 40px;}
+	.feature-section h4 {margin-top: 38px;}
+	.feature-section p {margin-bottom: 16%; font-size: 15px;}
+	.contact-section .section-title {font-size: 28px; margin-bottom: 6px;}
+	.contact-box {padding: 0 20px 25px;}
+	.footer {padding: 10px 0;}
+	.footer p {font-size: 11px;}
+	.social-media ul li a .fa {font-size: 16px;}
+}
